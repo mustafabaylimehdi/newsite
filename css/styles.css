@@ -1,0 +1,145 @@
+body {
+  color: #40514E;
+  margin:0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+h1 {
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 80px;
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: blue;
+  font-style: oblique;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: green;
+  text-decoration: underline;
+  color: #11999E;
+}
+a {
+  color: #4d3e3e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+a:hover {
+  color: #EAF6F6;
+}
+p {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 2;
+}
+span {
+  text-decoration: underline;
+}
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+margin: 100px 0;
+}
+.bottom-container {
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+.bottom-cloud {
+  position:absolute;
+  left: 300px;
+  bottom: 250px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.square {
+  border-radius: 70px;
+}
+.computer {
+  border-radius: 100%;
+  width: 45%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.ball {
+border-radius: 100%;
+width: 45%;
+float: right;
+margin-right: 30px;
+}
+.intro {
+width: 30%;
+margin: auto;
+}
+.contact {
+width: 40%;
+margin: 100px auto 60px;
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+.btn {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99) );
+	background:-moz-linear-gradient( center top, #599bb3 5%, #408c99 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99');
+	background-color:#599bb3;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+font-family: 'Montserrat', sans-serif;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:38px;
+	line-height:38px;
+width:121px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #3d768a;
+}.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3) );
+	background:-moz-linear-gradient( center top, #408c99 5%, #599bb3 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3');
+	background-color:#408c99;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
